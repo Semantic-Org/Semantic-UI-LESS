@@ -175,6 +175,7 @@ Package.onUse(function(api) {
     'definitions/views/item.less',
     'definitions/views/statistic.less',
     'theme.config.example',
+    'theme.less',
     'themes/amazon/elements/button.overrides',
     'themes/amazon/elements/button.variables',
     'themes/basic/assets/fonts/icons.eot',
