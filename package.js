@@ -15,8 +15,6 @@ Package.onUse(function(api) {
   api.use('less', 'client');
 
   api.addFiles([
-    'LICENSE',
-    'README.md',
     '_site/collections/breadcrumb.overrides',
     '_site/collections/breadcrumb.variables',
     '_site/collections/form.overrides',
