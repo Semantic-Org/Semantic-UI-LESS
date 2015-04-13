@@ -5,7 +5,7 @@ var
 Package.describe({
   name    : 'semantic:ui',
   summary : 'Semantic UI - LESS Release of Semantic UI',
-  version : '1.11.6',
+  version : '1.11.7',
   git     : 'git://github.com/Semantic-Org/Semantic-UI-LESS.git',
 });
 
@@ -172,6 +172,7 @@ Package.onUse(function(api) {
     'definitions/views/feed.less',
     'definitions/views/item.less',
     'definitions/views/statistic.less',
+    'semantic.less',
     'theme.config.example',
     'theme.less',
     'themes/amazon/elements/button.overrides',
