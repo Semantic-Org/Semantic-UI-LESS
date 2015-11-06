@@ -1311,7 +1311,7 @@ $.fn.dropdown = function(parameters) {
             ;
             if(inputElement) {
               module.verbose('Triggering native change event');
-              events.initEvent('change', true, false);
+              events.initEvent('change', false, true);
               inputElement.dispatchEvent(events);
             }
           }
