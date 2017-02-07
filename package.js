@@ -5,7 +5,7 @@ var
 Package.describe({
   name    : 'semantic:ui',
   summary : 'Semantic UI - LESS Release of Semantic UI',
-  version : '2.2.3',
+  version : '2.2.7',
   git     : 'git://github.com/Semantic-Org/Semantic-UI-LESS.git',
 });
 
@@ -372,12 +372,18 @@ Package.onUse(function(api) {
     'themes/gmail/collections/message.variables',
     'themes/instagram/views/card.overrides',
     'themes/instagram/views/card.variables',
+    'themes/material/assets/fonts/icons.eot',
+    'themes/material/assets/fonts/icons.svg',
+    'themes/material/assets/fonts/icons.ttf',
+    'themes/material/assets/fonts/icons.woff',
     'themes/material/collections/menu.overrides',
     'themes/material/collections/menu.variables',
     'themes/material/elements/button.overrides',
     'themes/material/elements/button.variables',
     'themes/material/elements/header.overrides',
     'themes/material/elements/header.variables',
+    'themes/material/elements/icon.overrides',
+    'themes/material/elements/icon.variables',
     'themes/material/globals/site.overrides',
     'themes/material/globals/site.variables',
     'themes/material/modules/dropdown.overrides',
