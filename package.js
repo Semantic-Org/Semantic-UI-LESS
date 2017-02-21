@@ -5,7 +5,7 @@ var
 Package.describe({
   name    : 'semantic:ui',
   summary : 'Semantic UI - LESS Release of Semantic UI',
-  version : '2.2.8',
+  version : '2.2.9',
   git     : 'git://github.com/Semantic-Org/Semantic-UI-LESS.git',
 });
 
@@ -63,8 +63,6 @@ Package.onUse(function(api) {
     '_site/globals/site.variables',
     '_site/modules/accordion.overrides',
     '_site/modules/accordion.variables',
-    '_site/modules/chatroom.overrides',
-    '_site/modules/chatroom.variables',
     '_site/modules/checkbox.overrides',
     '_site/modules/checkbox.variables',
     '_site/modules/dimmer.overrides',
