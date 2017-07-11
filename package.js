@@ -376,6 +376,7 @@ Package.onUse(function(api) {
     'themes/material/assets/fonts/icons.svg',
     'themes/material/assets/fonts/icons.ttf',
     'themes/material/assets/fonts/icons.woff',
+    'themes/material/assets/fonts/icons.woff2',
     'themes/material/collections/menu.overrides',
     'themes/material/collections/menu.variables',
     'themes/material/elements/button.overrides',
