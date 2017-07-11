@@ -5,7 +5,7 @@ var
 Package.describe({
   name    : 'semantic:ui',
   summary : 'Semantic UI - LESS Release of Semantic UI',
-  version : '2.2.10',
+  version : '2.2.11',
   git     : 'git://github.com/Semantic-Org/Semantic-UI-LESS.git',
 });
 
