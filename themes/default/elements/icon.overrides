@@ -1348,7 +1348,7 @@ i.icon.youtube.play:before { content: "\f167"; }
     font-family: @outlineFontName;
   }
   i.icon.heart.empty:before { content: "\f004"; }
-  i.icon.star.empty:before { content: "\f089"; }
+  i.icon.star.empty:before { content: "\f005"; }
 
 }
 .loadOutlineIcons();
