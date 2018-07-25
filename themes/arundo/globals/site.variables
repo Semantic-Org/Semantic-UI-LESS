@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800');
+
+@fontName : Nunito Sans, sans-serif;
+
+@emSize   : 16px;
+@fontSize : 16px ;
+
+@primaryColor        : @brand;
+@secondaryColor      : @layout-dark;
+
+@headerFontWeight : @normal;
+
+@relativeBorderRadius: @relative3px;
+@absoluteBorderRadius: @3px;
+
+@defaultBorderRadius: @absoluteBorderRadius;
+/*-------------------
+      Arundo Colors
+--------------------*/
+@brand: #40b0e5;
+
+@layout-lightest: #FCFEFF;
+@layout-lighter: #F2F8FA;
+@layout-light: #DCE5E8;
+@layout-dark: #0D3C59;
+@layout-darker: #002740;
+@layout-darkest: #032033;
+
+@blue             : @brand;
+
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor           : @brand;
+@linkUnderline       : underline;
+@linkHoverColor      : darken(saturate(@linkColor, 20), 15, relative);
+@linkHoverUnderline  : @linkUnderline;
+
+
+/*-------------------
+     Alpha Colors
+--------------------*/
+
+@subtleTransparentBlack     : rgba(0, 0, 0, 0.03);
+@transparentBlack           : rgba(0, 0, 0, 0.05);
+@strongTransparentBlack     : rgba(0, 0, 0, 0.10);
+@veryStrongTransparentBlack : rgba(0, 0, 0, 0.15);
+
+@subtleTransparentWhite     : rgba(255, 255, 255, 0.02);
+@transparentWhite           : rgba(255, 255, 255, 0.08);
+@strongTransparentWhite     : rgba(255, 255, 255, 0.15);
+
+
+/*-------------------
+       Accents
+--------------------*/
+
+/* Differentiating Neutrals */
+@subtleGradient: linear-gradient(transparent, @transparentBlack);
+
+/* Differentiating Layers */
+@subtleShadow:
+        0px 1px 2px 0 @borderColor
+;
+@floatingShadow:
+        0px 2px 4px 0px rgba(34, 36, 38, 0.02),
+        0px 2px 6px 0px rgba(34, 36, 38, 0.05)
+;
+
+/*-------------------
+      Borders
+--------------------*/
+
+@circularRadius                : 500rem;
+
+@borderColor               : rgba(34, 36, 38, 0.15);
+@strongBorderColor         : rgba(34, 36, 38, 0.22);
+@internalBorderColor       : rgba(34, 36, 38, 0.1);
+@selectedBorderColor       : rgba(34, 36, 38, 0.35);
+@strongSelectedBorderColor : rgba(34, 36, 38, 0.5);
+@disabledBorderColor       : rgba(34, 36, 38, 0.5);
+
+@solidInternalBorderColor  : #FAFAFA;
+@solidBorderColor          : #D4D4D5;
+@solidSelectedBorderColor  : #BCBDBD;
+
+@whiteBorderColor              : rgba(255, 255, 255, 0.1);
+@selectedWhiteBorderColor      : rgba(255, 255, 255, 0.8);
+
+@solidWhiteBorderColor         : #555555;
+@selectedSolidWhiteBorderColor : #999999;

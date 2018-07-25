@@ -1,0 +1,54 @@
+@backgroundColor: #DCE5E8;
+@background: @backgroundColor @backgroundImage;
+
+/*-------------------
+        States
+--------------------*/
+
+/* Hovered */
+@hoverBackgroundColor: #d2dadd;
+@hoverBackgroundImage: @backgroundImage;
+@hoverBoxShadow: @boxShadow;
+@hoverColor: @hoveredTextColor;
+@iconHoverOpacity: 0.85;
+
+/* Focused */
+@focusBackgroundColor: @hoverBackgroundColor;
+@focusBackgroundImage: '';
+@focusBoxShadow: '';
+@focusColor: @hoveredTextColor;
+@iconFocusOpacity: 0.85;
+
+/* Disabled */
+@disabledBackgroundImage: none;
+@disabledBoxShadow: none;
+
+/* Pressed Down */
+@downBackgroundColor: #b6bdc0;
+@downBackgroundImage: '';
+@downPressedShadow: none;
+@downBoxShadow:
+  @borderBoxShadow,
+  @downPressedShadow
+;
+@downColor: @pressedTextColor;
+
+/* Active */
+@activeBackgroundColor: #b9c0c3;
+@activeBackgroundImage: none;
+@activeColor: @selectedTextColor;
+@activeBoxShadow: @borderBoxShadow;
+
+/* Active + Hovered */
+@activeHoverBackgroundColor: @activeBackgroundColor;
+@activeHoverBackgroundImage: none;
+@activeHoverColor: @activeColor;
+@activeHoverBoxShadow: @activeBoxShadow;
+
+/* Loading */
+@loadingOpacity: 1;
+@loadingPointerEvents: auto;
+@loadingTransition:
+  all 0s linear,
+  opacity @defaultDuration @defaultEasing
+;

@@ -1,0 +1,6 @@
+/*******************************
+         Theme Overrides
+*******************************/
+.ui.pointing.menu .active.item:after {
+  visibility: hidden !important;
+}
