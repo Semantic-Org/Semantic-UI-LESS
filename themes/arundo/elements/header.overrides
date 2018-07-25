@@ -1,0 +1,10 @@
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+@hugefontsize : 5rem;
+@largefontsize : 3.75rem;
+@mediumfontsize : 2.75rem;
+@smallfontsize : .75rem;
+@tinyfontsize : .5rem;

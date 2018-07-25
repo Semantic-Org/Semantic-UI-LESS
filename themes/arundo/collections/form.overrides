@@ -1,0 +1,11 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+::placeholder {
+    font-size: 14px;
+  }
+  
+  textarea {
+    font-family: "Nunito Sans";
+  }

@@ -1,0 +1,13 @@
+/* Active */
+@activeBackground: #F2F8FA;
+@activeColor: @linkColor;
+@activeIconColor: @darkTextColor;
+
+/* Active + Hover */
+@activeHoverBackground: @lightGrey;
+@activeHoverColor: @textColor;
+
+
+/* Disabled */
+@disabledBackground: @background;
+@disabledColor: @disabledTextColor;

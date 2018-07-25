@@ -1,17 +1,14 @@
 {
-  "name": "semantic-ui-less",
-  "version": "2.3.3",
-  "title": "Semantic UI",
-  "description": "LESS Only distribution of Semantic UI",
-  "homepage": "http://www.semantic-ui.com",
+  "name": "@arundo/ads-less",
+  "version": "0.1.6",
   "author": "Jack Lukic <jack@semantic-ui.com>",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Semantic-Org/Semantic-UI-LESS.git"
+    "url": "git://github.com/arundo/ads-less.git"
   },
   "bugs": {
-    "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
+    "url": "https://github.com/arundo/ads-less/issues"
   },
   "dependencies": {
     "jquery": "x.*"

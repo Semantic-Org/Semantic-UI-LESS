@@ -1,0 +1,17 @@
+@dropdownHoveredItemColor: @brand;
+@hoverItemTextColor: @brand;
+@activeItemTextColor: @brand;
+@activeHoverItemColor: @brand;
+@dropdownSelectedItemColor: @brand;
+@dropdownActiveItemColor: @brand;
+@secondaryHoverItemColor: @brand;
+@secondaryActiveItemColor: @brand;
+@secondaryActiveHoverItemColor: @brand;
+@secondaryActiveHoveredItemColor: @brand;
+@secondaryPointingActiveBorderColor: @brand;
+@secondaryPointingActiveTextColor: @brand;
+@secondaryPointingInvertedItemHoverTextColor: @brand;
+@tieredSubMenuActiveColor: @brand;
+@tabularActiveColor: @brand;
+@paginationActiveTextColor: @brand;
+@textMenuActiveItemColor: @brand;
