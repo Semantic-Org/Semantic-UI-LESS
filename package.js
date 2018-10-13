@@ -5,7 +5,7 @@ var
 Package.describe({
   name    : 'semantic:ui',
   summary : 'Semantic UI - LESS Release of Semantic UI',
-  version : '2.4.0',
+  version : '2.4.1',
   git     : 'git://github.com/Semantic-Org/Semantic-UI-LESS.git',
 });
 
@@ -130,6 +130,7 @@ Package.onUse(function(api) {
     'definitions/elements/label.less',
     'definitions/elements/list.less',
     'definitions/elements/loader.less',
+    'definitions/elements/placeholder.less',
     'definitions/elements/rail.less',
     'definitions/elements/reveal.less',
     'definitions/elements/segment.less',
@@ -277,6 +278,8 @@ Package.onUse(function(api) {
     'themes/default/elements/list.variables',
     'themes/default/elements/loader.overrides',
     'themes/default/elements/loader.variables',
+    'themes/default/elements/placeholder.overrides',
+    'themes/default/elements/placeholder.variables',
     'themes/default/elements/rail.overrides',
     'themes/default/elements/rail.variables',
     'themes/default/elements/reveal.overrides',
