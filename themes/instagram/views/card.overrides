@@ -3,7 +3,7 @@
 *******************************/
 
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700,400);
+@import (css) url(https://fonts.googleapis.com/css?family=Montserrat:700,400);
 
 .ui.cards > .card,
 .ui.card {
