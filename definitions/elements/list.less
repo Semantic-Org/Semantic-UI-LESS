@@ -540,8 +540,8 @@ ol.ui.list ol li,
 }
 .ui.fitted.selection.list .list > .item,
 .ui.fitted.selection.list > .item {
-  margin-left: -@selectionListItemHorizontalPadding;
-  margin-right: -@selectionListItemHorizontalPadding;
+  margin-left: (-1 * @selectionListItemHorizontalPadding);
+  margin-right: (-1 * @selectionListItemHorizontalPadding);
 }
 
 /*-------------------
@@ -632,7 +632,7 @@ ol.ui.list li:before,
   left: auto;
   user-select: none;
   pointer-events: none;
-  margin-left: -(@orderedCountDistance);
+  margin-left: (-1 * @orderedCountDistance);
   counter-increment: @orderedCountName;
   content: @orderedCountContent;
   text-align: @orderedCountTextAlign;
@@ -800,8 +800,8 @@ ol.ui.horizontal.list li:before,
   padding-left: (@bulletDistance);
 }
 .ui.celled.bulleted.list .item .list {
-  margin-left: -(@bulletDistance);
-  margin-right: -(@bulletDistance);
+  margin-left: (-1 * @bulletDistance);
+  margin-right: (-1 * @bulletDistance);
   padding-bottom: @itemVerticalPadding;
 }
 

@@ -134,7 +134,7 @@
   left: 50%;
   background: @tooltipArrowBottomBackground;
   margin-left: @tooltipArrowHorizontalOffset;
-  margin-bottom: -@tooltipArrowVerticalOffset;
+  margin-bottom: (-1 * @tooltipArrowVerticalOffset);
 }
 [data-tooltip]:not([data-position]):after {
   left: 50%;
@@ -252,7 +252,7 @@
   left: 50%;
   background: @tooltipArrowTopBackground;
   margin-left: @tooltipArrowHorizontalOffset;
-  margin-bottom: -@tooltipArrowVerticalOffset;
+  margin-bottom: (-1 * @tooltipArrowVerticalOffset);
 }
 
 /* Top Left */
@@ -269,7 +269,7 @@
   bottom: 100%;
   left: @arrowDistanceFromEdge;
   margin-left: @tooltipArrowHorizontalOffset;
-  margin-bottom: -@tooltipArrowVerticalOffset;
+  margin-bottom: (-1 * @tooltipArrowVerticalOffset);
 }
 
 /* Top Right */
@@ -286,7 +286,7 @@
   bottom: 100%;
   right: @arrowDistanceFromEdge;
   margin-left: @tooltipArrowHorizontalOffset;
-  margin-bottom: -@tooltipArrowVerticalOffset;
+  margin-bottom: (-1 * @tooltipArrowVerticalOffset);
 }
 
 
@@ -305,7 +305,7 @@
   top: 100%;
   left: 50%;
   margin-left: @tooltipArrowHorizontalOffset;
-  margin-top: -@tooltipArrowVerticalOffset;
+  margin-top: (-1 * @tooltipArrowVerticalOffset);
 }
 
 /* Bottom Left */
@@ -320,7 +320,7 @@
   top: 100%;
   left: @arrowDistanceFromEdge;
   margin-left: @tooltipArrowHorizontalOffset;
-  margin-top: -@tooltipArrowVerticalOffset;
+  margin-top: (-1 * @tooltipArrowVerticalOffset);
 }
 
 /* Bottom Right */
@@ -335,7 +335,7 @@
   top: 100%;
   right: @arrowDistanceFromEdge;
   margin-left: @tooltipArrowVerticalOffset;
-  margin-top: -@tooltipArrowHorizontalOffset;
+  margin-top: (-1 * @tooltipArrowHorizontalOffset);
 }
 
 /* Left Center */
@@ -363,7 +363,7 @@
   left: 100%;
   top: 50%;
   margin-top: @tooltipArrowHorizontalOffset;
-  margin-left: -@tooltipArrowVerticalOffset;
+  margin-left: (-1 * @tooltipArrowVerticalOffset);
 }
 
 /* Arrow */

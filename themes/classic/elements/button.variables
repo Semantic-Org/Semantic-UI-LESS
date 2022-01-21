@@ -9,7 +9,7 @@
 /* Shadow */
 @shadowDistance: 0em;
 @shadowOffset: (@shadowDistance / 2);
-@shadowBoxShadow: 0px -@shadowDistance 0px 0px @borderColor inset;
+@shadowBoxShadow: 0px (-1 * @shadowDistance) 0px 0px @borderColor inset;
 @backgroundColor: #FAFAFA;
 @backgroundImage: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09));
 @boxShadow:

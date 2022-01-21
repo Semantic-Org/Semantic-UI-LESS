@@ -23,7 +23,7 @@
 @iconOpacity: 0.8;
 @iconDistance: 0.4em;
 @iconTransition: opacity @defaultDuration @defaultEasing;
-@iconMargin: 0em @iconDistance 0em -(@iconDistance / 2);
+@iconMargin: 0em @iconDistance 0em (@iconDistance / -2);
 @iconVerticalAlign: top;
 
 /*-------------------

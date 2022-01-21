@@ -36,7 +36,7 @@
 @horizontalSpacing: 1em;
 @rowSpacing: 1.75em;
 
-@groupMargin: -(@rowSpacing / 2) -(@horizontalSpacing / 2);
+@groupMargin: (@rowSpacing / -2) (@horizontalSpacing / -2);
 @groupDisplay: flex;
 
 @groupCardFloat: none;
@@ -73,7 +73,7 @@
 @headerMargin: '';
 @headerFontWeight: @bold;
 @headerFontSize: @relativeBig;
-@headerLineHeightOffset: -(@lineHeight - 1em) / 2;
+@headerLineHeightOffset: ((@lineHeight - 1em) / -2);
 @headerColor: @darkTextColor;
 
 /* Metadata */
@@ -140,7 +140,7 @@
 @extraLinkHoverColor: @linkHoverColor;
 
 /* Buttons */
-@buttonMargin: 0px -@borderWidth;
+@buttonMargin: 0px (-1 * @borderWidth);
 @buttonWidth: ~"calc(100% + "(@borderWidth * 2)~")";
 
 /*-------------------
@@ -152,7 +152,7 @@
 @linkHoverBorder: @border;
 @linkHoverZIndex: 5;
 @linkHoverRaiseDistance: 3px;
-@linkHoverTransform: translateY(-@linkHoverRaiseDistance);
+@linkHoverTransform: translateY(-1 *@linkHoverRaiseDistance);
 
 @shadowHoverBoxShadow: 0px @shadowDistance @linkHoverRaiseDistance 0px @solidSelectedBorderColor;
 @linkHoverBoxShadow:
@@ -190,23 +190,23 @@
 @oneCard: @oneColumn;
 @oneCardOffset: 0em;
 @twoCard: ~"calc("@twoColumn~" - "(@twoCardSpacing * 2)~")";
-@twoCardOffset: -@twoCardSpacing;
+@twoCardOffset: (-1 * @twoCardSpacing);
 @threeCard: ~"calc("@threeColumn~" - "(@threeCardSpacing * 2)~")";
-@threeCardOffset: -@threeCardSpacing;
+@threeCardOffset: (-1 * @threeCardSpacing);
 @fourCard: ~"calc("@fourColumn~" - "(@fourCardSpacing * 2)~")";
-@fourCardOffset: -@fourCardSpacing;
+@fourCardOffset: (-1 * @fourCardSpacing);
 @fiveCard: ~"calc("@fiveColumn~" - "(@fiveCardSpacing * 2)~")";
-@fiveCardOffset: -@fiveCardSpacing;
+@fiveCardOffset: (-1 * @fiveCardSpacing);
 @sixCard: ~"calc("@sixColumn~" - "(@sixCardSpacing * 2)~")";
-@sixCardOffset: -@sixCardSpacing;
+@sixCardOffset: (-1 * @sixCardSpacing);
 @sevenCard: ~"calc("@sevenColumn~" - "(@sevenCardSpacing * 2)~")";
-@sevenCardOffset: -@sevenCardSpacing;
+@sevenCardOffset: (-1 * @sevenCardSpacing);
 @eightCard: ~"calc("@eightColumn~" - "(@sevenCardSpacing * 2)~")";
-@eightCardOffset: -@sevenCardSpacing;
+@eightCardOffset: (-1 * @sevenCardSpacing);
 @nineCard: ~"calc("@nineColumn~" - "(@nineCardSpacing * 2)~")";
-@nineCardOffset: -@nineCardSpacing;
+@nineCardOffset: (-1 * @nineCardSpacing);
 @tenCard: ~"calc("@tenColumn~" - "(@tenCardSpacing * 2)~")";
-@tenCardOffset: -@tenCardSpacing;
+@tenCardOffset: (-1 * @tenCardSpacing);
 
 /* Stackable */
 @stackableRowSpacing: 1em;

@@ -252,7 +252,7 @@
   background: @definitionHeaderBackground;
   font-weight: @definitionHeaderFontWeight;
   color: @definitionHeaderColor;
-  box-shadow: -@borderWidth -@borderWidth 0px @borderWidth @definitionPageBackground;
+  box-shadow: (-1 * @borderWidth) (-1 * @borderWidth) 0px @borderWidth @definitionPageBackground;
 }
 
 .ui.definition.table tfoot:not(.full-width) th:first-child {
@@ -265,7 +265,7 @@
 
 /* Remove Border */
 .ui.celled.definition.table thead:not(.full-width) th:first-child {
-  box-shadow: 0px -@borderWidth 0px @borderWidth @definitionPageBackground;
+  box-shadow: 0px (-1 * @borderWidth) 0px @borderWidth @definitionPageBackground;
 }
 .ui.celled.definition.table tfoot:not(.full-width) th:first-child {
   box-shadow: 0px @borderWidth 0px @borderWidth @definitionPageBackground;

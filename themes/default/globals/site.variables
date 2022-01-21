@@ -491,7 +491,7 @@
 --------------------*/
 
 /* Loaders Position Offset */
-@loaderOffset : -(@loaderSize / 2);
+@loaderOffset : (@loaderSize / -2);
 @loaderMargin : @loaderOffset 0em 0em @loaderOffset;
 
 /* Rendered Scrollbar Width */

@@ -157,7 +157,7 @@
 
 /* Bulleted */
 @bulletDistance: 1.25rem;
-@bulletOffset: -@bulletDistance;
+@bulletOffset: (-1 * @bulletDistance);
 
 @bulletOpacity: 1;
 @bulletCharacter: '•';

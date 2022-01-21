@@ -32,7 +32,7 @@
 /* Internal Shadow */
 @shadowDistance: 0em;
 @shadowOffset: (@shadowDistance / 2);
-@shadowBoxShadow: 0px -@shadowDistance 0px 0px @borderColor inset;
+@shadowBoxShadow: 0px (-1 * @shadowDistance) 0px 0px @borderColor inset;
 
 /* Box Shadow */
 @borderBoxShadowColor: transparent;
@@ -51,8 +51,8 @@
 @iconTransition: opacity @defaultDuration @defaultEasing;
 @iconVerticalAlign: '';
 
-@iconMargin: 0em @iconDistance 0em -(@iconDistance / 2);
-@rightIconMargin: 0em -(@iconDistance / 2) 0em @iconDistance;
+@iconMargin: 0em @iconDistance 0em (@iconDistance / -2);
+@rightIconMargin: 0em (@iconDistance / -2) 0em @iconDistance;
 
 /* Loader */
 @invertedLoaderFillColor: rgba(0, 0, 0, 0.15);
@@ -147,8 +147,8 @@
 @orLineHeight: (@orCircleSize);
 @orBoxShadow: @borderBoxShadow;
 
-@orVerticalOffset: -(@orCircleSize / 2);
-@orHorizontalOffset: -(@orCircleSize / 2);
+@orVerticalOffset: (@orCircleSize / -2);
+@orHorizontalOffset: (@orCircleSize / -2);
 
 @orBackgroundColor: @white;
 @orTextShadow: @invertedTextShadow;
@@ -169,7 +169,7 @@
 @labeledLabelPadding: '';
 @labeledLabelFontSize: @relativeMedium;
 @labeledLabelBorderColor: @borderColor;
-@labeledLabelBorderOffset: -@borderBoxShadowWidth;
+@labeledLabelBorderOffset: (-1 * @borderBoxShadowWidth);
 @labeledTagLabelSize: 1.85em; /* hypotenuse of triangle */
 @labeledIconMargin: 0em;
 
@@ -188,8 +188,8 @@
 @invertedBorderSize: 2px;
 @invertedTextColor: @white;
 @invertedTextHoverColor: @hoverColor;
-@invertedGroupButtonOffset: 0px 0px 0px -(@invertedBorderSize);
-@invertedVerticalGroupButtonOffset: 0px 0px -(@invertedBorderSize) 0px;
+@invertedGroupButtonOffset: 0px 0px 0px (-1 * @invertedBorderSize);
+@invertedVerticalGroupButtonOffset: 0px 0px (-1 * @invertedBorderSize) 0px;
 
 /* Basic */
 @basicBorderRadius: @borderRadius;

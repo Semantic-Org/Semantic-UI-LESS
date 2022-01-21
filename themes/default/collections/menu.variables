@@ -38,7 +38,7 @@
 
 /* Sub Menu */
 @subMenuDistance: 0.5em;
-@subMenuMargin: @subMenuDistance -@itemHorizontalPadding 0em;
+@subMenuMargin: @subMenuDistance (-1 * @itemHorizontalPadding) 0em;
 @subMenuFontSize: @relativeTiny;
 @subMenuTextColor: rgba(0, 0, 0, 0.5);
 
@@ -208,7 +208,7 @@
 
 /* Secondary */
 @secondaryBackground: none;
-@secondaryMargin: 0em -@secondaryItemSpacing;
+@secondaryMargin: 0em (-1 * @secondaryItemSpacing);
 @secondaryItemBackground: none;
 @secondaryItemSpacing: @relative5px;
 @secondaryItemMargin: 0em @secondaryItemSpacing;
@@ -237,7 +237,7 @@
 @secondaryVerticalItemMargin: 0em 0em @secondaryItemVerticalSpacing;
 @secondaryVerticalItemBorderRadius: @defaultBorderRadius;
 
-@secondaryMenuSubMenuMargin: 0em -@secondaryItemHorizontalPadding;
+@secondaryMenuSubMenuMargin: 0em (-1 * @secondaryItemHorizontalPadding);
 @secondaryMenuSubMenuItemMargin: 0em;
 @secondarySubMenuHorizontalPadding: (@itemHorizontalPadding / @tinySize) + @subMenuIndent;
 @secondaryMenuSubMenuItemPadding: @relative7px @secondarySubMenuHorizontalPadding;
@@ -260,7 +260,7 @@
 @secondaryPointingActiveHoverTextColor: @secondaryPointingActiveTextColor;
 
 @secondaryPointingHeaderColor: @darkTextColor;
-@secondaryVerticalPointingItemMargin: 0em -@secondaryPointingBorderWidth 0em 0em;
+@secondaryVerticalPointingItemMargin: 0em (-1 * @secondaryPointingBorderWidth) 0em 0em;
 
 
 /* Inverted Secondary */
@@ -344,7 +344,7 @@
 
 /* Text */
 @textMenuItemSpacing: @relative7px;
-@textMenuMargin: @relativeMedium -(@textMenuItemSpacing);
+@textMenuMargin: @relativeMedium (-1 * @textMenuItemSpacing);
 @textMenuItemColor: @mutedTextColor;
 @textMenuItemFontWeight: @normal;
 @textMenuItemMargin: 0em 0em;
@@ -429,7 +429,7 @@
 /* Attached */
 @attachedTopOffset: 0px;
 @attachedBottomOffset: 0px;
-@attachedHorizontalOffset: -@borderWidth;
+@attachedHorizontalOffset: (-1 * @borderWidth);
 @attachedWidth: calc(100% - (@attachedHorizontalOffset * 2));
 @attachedBoxShadow: none;
 @attachedBorder: @borderWidth solid @solidBorderColor;
