@@ -36,7 +36,7 @@
 @headerFontWeight: @bold;
 @headerDisplay: block;
 @headerDistance: 0rem;
-@headerMargin: -@headerLineHeightOffset 0em @headerDistance 0em;
+@headerMargin: calc(-1 * @headerLineHeightOffset) 0em @headerDistance 0em;
 @headerParagraphDistance: 0.25em;
 
 /* Paragraph */
