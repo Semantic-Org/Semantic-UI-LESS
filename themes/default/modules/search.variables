@@ -51,7 +51,7 @@
 
 /* Result Content */
 @resultTitleFont: @headerFont;
-@resultTitleMargin: -@headerLineHeightOffset 0em 0em;
+@resultTitleMargin: calc(-1 * @headerLineHeightOffset) 0em 0em;
 @resultTitleFontWeight: @bold;
 @resultTitleFontSize: @relativeMedium;
 @resultTitleColor: @darkTextColor;

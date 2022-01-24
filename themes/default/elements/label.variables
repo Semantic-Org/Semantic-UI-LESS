@@ -20,7 +20,7 @@
 @borderWidth: 1px;
 @border: 0px solid transparent;
 
-@lineHeightOffset: -(@verticalPadding / 2);
+@lineHeightOffset: (@verticalPadding / -2);
 
 @labelTransitionDuration: @defaultDuration;
 @labelTransitionEasing: @defaultEasing;
@@ -70,13 +70,13 @@
 @imageLabelBoxShadow: none;
 @imageLabelPadding: @imageLabelVerticalPadding @imageLabelHorizontalPadding @imageLabelVerticalPadding @imageLabelTextDistance;
 
-@imageLabelImageMargin: -@verticalPadding @imageLabelTextDistance -@verticalPadding -@imageLabelTextDistance;
+@imageLabelImageMargin: (-1 * @verticalPadding) @imageLabelTextDistance (-1 * @verticalPadding) (-1 * @imageLabelTextDistance);
 @imageLabelImageBorderRadius: @imageLabelBorderRadius 0em 0em @imageLabelBorderRadius;
 @imageLabelImageHeight: @imageHeight;
 
 @imageLabelDetailBackground: @strongTransparentBlack;
 @imageLabelDetailPadding: @imageLabelVerticalPadding @imageLabelHorizontalPadding;
-@imageLabelDetailMargin: -@imageLabelVerticalPadding -@imageLabelHorizontalPadding -@imageLabelVerticalPadding @imageLabelDetailDistance;
+@imageLabelDetailMargin: (-1 * @imageLabelVerticalPadding) (-1 * @imageLabelHorizontalPadding) (-1 * @imageLabelVerticalPadding) @imageLabelDetailDistance;
 
 /*-------------------
         States
@@ -130,17 +130,17 @@
 @ribbonShadowColor: rgba(0, 0, 0, 0.15);
 
 @ribbonMargin: 1rem;
-@ribbonOffset: calc(-@ribbonMargin - @ribbonTriangleSize);
+@ribbonOffset: calc((-1 * @ribbonMargin) - @ribbonTriangleSize);
 @ribbonDistance: calc(@ribbonMargin + @ribbonTriangleSize);
 @rightRibbonOffset:  calc(100% + @ribbonMargin + @ribbonTriangleSize);
 
 @ribbonImageTopDistance: 1rem;
 @ribbonImageMargin: -0.05rem; /* Rounding Offset on Triangle */
-@ribbonImageOffset: calc(-@ribbonImageMargin - @ribbonTriangleSize);
+@ribbonImageOffset: calc((-1 * @ribbonImageMargin) - @ribbonTriangleSize);
 @rightRibbonImageOffset:  calc(100% + @ribbonImageMargin + @ribbonTriangleSize);
 
 @ribbonTableMargin: @relativeMini; /* Rounding Offset on Triangle */
-@ribbonTableOffset: calc(-@ribbonTableMargin - @ribbonTriangleSize);
+@ribbonTableOffset: calc((-1 * @ribbonTableMargin) - @ribbonTriangleSize);
 @rightRibbonTableOffset:  calc(100% + @ribbonTableMargin + @ribbonTriangleSize);
 
 
@@ -232,7 +232,7 @@
 @pointingTriangleZIndex: 2;
 
 /* Basic Pointing */
-@basicPointingTriangleOffset: -@pointingBorderWidth;
+@basicPointingTriangleOffset: (-1 * @pointingBorderWidth);
 
 /* Floating */
 @floatingTopOffset: -1em;

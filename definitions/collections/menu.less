@@ -630,7 +630,7 @@ Floated Menu / Item
   border-top-width: @tabularBorderWidth;
   border-color: @tabularBorderColor;
   font-weight: @tabularActiveWeight;
-  margin-bottom: -@tabularBorderWidth;
+  margin-bottom: (-1 * @tabularBorderWidth);
   box-shadow: @tabularActiveBoxShadow;
   border-radius: @tabularBorderRadius @tabularBorderRadius 0px 0px !important;
 }
@@ -647,7 +647,7 @@ Floated Menu / Item
 .top.attached.segment + .ui.bottom.tabular.menu {
   position: relative;
   width: @tabularFluidWidth;
-  left: -@tabularFluidOffset;
+  left: (-1 * @tabularFluidOffset);
 }
 
 /* Bottom Vertical Tabular */
@@ -669,7 +669,7 @@ Floated Menu / Item
   background: @tabularActiveBackground;
   color: @tabularActiveColor;
   border-color: @tabularBorderColor;
-  margin: -@tabularBorderWidth 0px 0px 0px;
+  margin: (-1 * @tabularBorderWidth) 0px 0px 0px;
   border-radius: 0px 0px @tabularBorderRadius @tabularBorderRadius !important;
 }
 
@@ -692,7 +692,7 @@ Floated Menu / Item
   background: @tabularActiveBackground;
   color: @tabularActiveColor;
   border-color: @tabularBorderColor;
-  margin: 0px -@tabularBorderWidth 0px 0px;
+  margin: 0px (-1 * @tabularBorderWidth) 0px 0px;
   border-radius: @tabularBorderRadius 0px 0px @tabularBorderRadius !important;
 }
 
@@ -716,7 +716,7 @@ Floated Menu / Item
   background: @tabularActiveBackground;
   color: @tabularActiveColor;
   border-color: @tabularBorderColor;
-  margin: 0px 0px 0px -@tabularBorderWidth;
+  margin: 0px 0px 0px (-1 * @tabularBorderWidth);
   border-radius: 0px @tabularBorderRadius @tabularBorderRadius 0px !important;
 }
 
@@ -773,8 +773,8 @@ Floated Menu / Item
 
 .ui.secondary.menu {
   background: @secondaryBackground;
-  margin-left: -@secondaryItemSpacing;
-  margin-right: -@secondaryItemSpacing;
+  margin-left: (-1 * @secondaryItemSpacing);
+  margin-right: (-1 * @secondaryItemSpacing);
   border-radius: 0em;
   border: none;
   box-shadow: none;
@@ -910,7 +910,7 @@ Floated Menu / Item
   border-radius: 0em;
   align-self: flex-end;
 
-  margin: 0em 0em -@secondaryPointingBorderWidth;
+  margin: 0em 0em (-1 * @secondaryPointingBorderWidth);
   padding: @secondaryPointingItemVerticalPadding @secondaryPointingItemHorizontalPadding;
   border-bottom-width: @secondaryPointingBorderWidth;
   transition: @secondaryItemTransition;
@@ -1802,7 +1802,7 @@ Floated Menu / Item
   left: auto;
 
   transform: translateX(50%) translateY(-50%) rotate(45deg);
-  margin: 0em -(@arrowBorderWidth / 2) 0em 0em;
+  margin: 0em (@arrowBorderWidth / -2) 0em 0em;
 
   border: none;
   border-top: @arrowBorder;

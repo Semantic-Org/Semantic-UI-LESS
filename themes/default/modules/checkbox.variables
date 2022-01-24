@@ -114,7 +114,7 @@
 @sliderLineWidth: 3.5rem;
 @sliderTransitionDuration: 0.3s;
 
-@sliderHandleOffset: (1rem - @sliderHandleSize) / 2;
+@sliderHandleOffset: ((1rem - @sliderHandleSize) / 2);
 @sliderHandleTransition: left @sliderTransitionDuration @defaultEasing;
 
 @sliderWidth: @sliderLineWidth;

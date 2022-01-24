@@ -34,18 +34,18 @@
 -----------------------*/
 
 .ui.grid {
-  margin-top: -(@rowSpacing / 2);
-  margin-bottom: -(@rowSpacing / 2);
-  margin-left: -(@gutterWidth / 2);
-  margin-right: -(@gutterWidth / 2);
+  margin-top: (@rowSpacing / -2);
+  margin-bottom: (@rowSpacing / -2);
+  margin-left: (@gutterWidth / -2);
+  margin-right: (@gutterWidth / -2);
 }
 .ui.relaxed.grid  {
-  margin-left: -(@relaxedGutterWidth / 2);
-  margin-right: -(@relaxedGutterWidth / 2);
+  margin-left: (@relaxedGutterWidth / -2);
+  margin-right: (@relaxedGutterWidth / -2);
 }
 .ui[class*="very relaxed"].grid  {
-  margin-left: -(@veryRelaxedGutterWidth / 2);
-  margin-right: -(@veryRelaxedGutterWidth / 2);
+  margin-left: (@veryRelaxedGutterWidth / -2);
+  margin-right: (@veryRelaxedGutterWidth / -2);
 }
 
 
@@ -1291,8 +1291,8 @@
 .ui.grid > .row > .brown.column,
 .ui.grid > .row > .grey.column,
 .ui.grid > .row > .black.column {
-  margin-top: -(@rowSpacing / 2);
-  margin-bottom: -(@rowSpacing / 2);
+  margin-top: (@rowSpacing / -2);
+  margin-bottom: (@rowSpacing / -2);
   padding-top: (@rowSpacing / 2);
   padding-bottom: (@rowSpacing / 2);
 }
@@ -1749,8 +1749,8 @@
   /* Don't pad inside segment or nested grid */
   .ui.grid .ui.stackable.grid,
   .ui.segment:not(.vertical) .ui.stackable.page.grid {
-    margin-left: -(@stackableGutter / 2) !important;
-    margin-right: -(@stackableGutter / 2) !important;
+    margin-left: (@stackableGutter / -2) !important;
+    margin-right: (@stackableGutter / -2) !important;
   }
 
   /* Divided Stackable */

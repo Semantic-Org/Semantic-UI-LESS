@@ -17,7 +17,7 @@
 @fieldMargin: 0em 0em @rowDistance;
 
 /* Fields */
-@fieldsMargin: 0em -(@gutterWidth / 2) @rowDistance;
+@fieldsMargin: 0em (@gutterWidth / -2) @rowDistance;
 
 /* Form Label */
 @labelDistance: @4px;

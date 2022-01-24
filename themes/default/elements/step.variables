@@ -93,9 +93,9 @@
       Variations
 --------------------*/
 
-@attachedHorizontalOffset: -@borderWidth;
+@attachedHorizontalOffset: (-1 * @borderWidth);
 @attachedVerticalOffset: 0;
-@attachedWidth: calc(100% + (-@attachedHorizontalOffset * 2));
+@attachedWidth: calc(100% + (@attachedHorizontalOffset * -2));
 
 @orderedFontFamily: inherit;
 @orderedFontWeight: @bold;

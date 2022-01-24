@@ -221,9 +221,9 @@ a.ui.label {
   position: absolute;
   content: '';
   top: 50%;
-  left: -(@tagCircleSize / 2);
+  left: (@tagCircleSize / -2);
 
-  margin-top: -(@tagCircleSize / 2);
+  margin-top: (@tagCircleSize / -2);
   background-color: @tagCircleColor !important;
   width: @tagCircleSize;
   height: @tagCircleSize;
@@ -301,7 +301,7 @@ a.ui.label {
   border-top-color: inherit;
 }
 .ui.left.corner.label .icon {
-  left: -@cornerIconLeftOffset;
+  left: (-1 * @cornerIconLeftOffset);
 }
 
 /* Segment */
@@ -345,7 +345,7 @@ a.ui.label {
 /* Positioning */
 .ui.ribbon.label {
   left: @ribbonOffset;
-  margin-right: -@ribbonTriangleSize;
+  margin-right: (-1 * @ribbonTriangleSize);
   padding-left: @ribbonDistance;
   padding-right: @ribbonTriangleSize;
 }
@@ -1192,7 +1192,7 @@ a.ui.basic.label:hover {
 .ui.basic[class*="pointing below"].label:before {
   bottom: auto;
   top: 100%;
-  margin-top: -@basicPointingTriangleOffset;
+  margin-top: (-1 * @basicPointingTriangleOffset);
 }
 /*--- Left ---*/
 .ui.basic[class*="left pointing"].label:before {

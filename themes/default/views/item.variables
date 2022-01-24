@@ -67,7 +67,7 @@
 @contentBoxShadow: none;
 
 /* Header */
-@headerMargin: -@lineHeightOffset 0em 0em;
+@headerMargin: (-1 * @lineHeightOffset) 0em 0em;
 @headerFontWeight: @bold;
 @headerFontSize: @relativeBig;
 @headerColor: @darkTextColor;

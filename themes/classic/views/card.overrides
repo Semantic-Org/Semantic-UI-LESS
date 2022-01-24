@@ -24,7 +24,7 @@
 /* Item Group */
 @horizontalSpacing: 0.5em;
 @rowSpacing: 2.5em;
-@groupMargin: 1em -@horizontalSpacing;
+@groupMargin: 1em (-1 * @horizontalSpacing);
 
 /*-------------------
        Content

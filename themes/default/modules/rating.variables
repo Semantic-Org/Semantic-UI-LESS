@@ -44,8 +44,8 @@
 @starActiveColor: #FFE623;
 @starActiveShadowColor: #DDC507;
 @starActiveTextShadow:
-  0px -@starShadowWidth 0px @starActiveShadowColor,
-  -@starShadowWidth 0px 0px @starActiveShadowColor,
+  0px (-1 * @starShadowWidth) 0px @starActiveShadowColor,
+  (-1 * @starShadowWidth) 0px 0px @starActiveShadowColor,
   0px @starShadowWidth 0px @starActiveShadowColor,
   @starShadowWidth 0px 0px @starActiveShadowColor
 ;
@@ -54,8 +54,8 @@
 @starSelectedColor: #FFCC00;
 @starSelectedShadowColor: #E6A200;
 @starSelectedTextShadow:
-  0px -@starShadowWidth 0px @starSelectedShadowColor,
-  -@starShadowWidth 0px 0px @starSelectedShadowColor,
+  0px (-1 * @starShadowWidth) 0px @starSelectedShadowColor,
+  (-1 * @starShadowWidth) 0px 0px @starSelectedShadowColor,
   0px @starShadowWidth 0px @starSelectedShadowColor,
   @starShadowWidth 0px 0px @starSelectedShadowColor
 ;
@@ -73,8 +73,8 @@
 @heartActiveColor: #FF6D75;
 @heartActiveShadowColor: #CD0707;
 @heartActiveTextShadow:
-  0px -@heartShadowWidth 0px @heartActiveShadowColor,
-  -@heartShadowWidth 0px 0px @heartActiveShadowColor,
+  0px (-1 * @heartShadowWidth) 0px @heartActiveShadowColor,
+  (-1 * @heartShadowWidth) 0px 0px @heartActiveShadowColor,
   0px @heartShadowWidth 0px @heartActiveShadowColor,
   @heartShadowWidth 0px 0px @heartActiveShadowColor
 ;
@@ -83,8 +83,8 @@
 @heartSelectedColor: #FF3000;
 @heartSelectedShadowColor: #AA0101;
 @heartSelectedTextShadow:
-  0px -@heartShadowWidth 0px @heartSelectedShadowColor,
-  -@heartShadowWidth 0px 0px @heartSelectedShadowColor,
+  0px (-1 * @heartShadowWidth) 0px @heartSelectedShadowColor,
+  (-1 * @heartShadowWidth) 0px 0px @heartSelectedShadowColor,
   0px @heartShadowWidth 0px @heartSelectedShadowColor,
   @heartShadowWidth 0px 0px @heartSelectedShadowColor
 ;

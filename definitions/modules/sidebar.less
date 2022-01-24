@@ -216,7 +216,7 @@ body.pushable > .pusher {
 }
 .ui.visible.right.sidebar ~ .fixed,
 .ui.visible.right.sidebar ~ .pusher {
-  transform: translate3d(-@width, 0, 0);
+  transform: translate3d(-1 *@width, 0, 0);
 }
 .ui.visible.top.sidebar ~ .fixed,
 .ui.visible.top.sidebar ~ .pusher {
@@ -224,7 +224,7 @@ body.pushable > .pusher {
 }
 .ui.visible.bottom.sidebar ~ .fixed,
 .ui.visible.bottom.sidebar ~ .pusher {
-  transform: translate3d(0, -@height, 0);
+  transform: translate3d(0, -1 * @height, 0);
 }
 
 /* opposite sides visible forces content overlay */
@@ -291,19 +291,19 @@ body.pushable > .pusher {
 /* Right Visible */
 .ui.visible.thin.right.sidebar ~ .fixed,
 .ui.visible.thin.right.sidebar ~ .pusher {
-  transform: translate3d(-@thinWidth, 0, 0);
+  transform: translate3d(-1 *@thinWidth, 0, 0);
 }
 .ui.visible[class*="very thin"].right.sidebar ~ .fixed,
 .ui.visible[class*="very thin"].right.sidebar ~ .pusher {
-  transform: translate3d(-@veryThinWidth, 0, 0);
+  transform: translate3d(-1 * @veryThinWidth, 0, 0);
 }
 .ui.visible.wide.right.sidebar ~ .fixed,
 .ui.visible.wide.right.sidebar ~ .pusher {
-  transform: translate3d(-@wideWidth, 0, 0);
+  transform: translate3d(-1 * @wideWidth, 0, 0);
 }
 .ui.visible[class*="very wide"].right.sidebar ~ .fixed,
 .ui.visible[class*="very wide"].right.sidebar ~ .pusher {
-  transform: translate3d(-@veryWideWidth, 0, 0);
+  transform: translate3d(-1 * @veryWideWidth, 0, 0);
 }
 
 

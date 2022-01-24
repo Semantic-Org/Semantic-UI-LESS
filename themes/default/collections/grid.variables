@@ -58,8 +58,8 @@
 @celledVeryRelaxedPadding: 2em;
 
 @celledGridDivider: 0px 0px 0px @celledWidth @celledBorderColor;
-@celledRowDivider: 0px (-@celledWidth) 0px 0px @celledBorderColor;
-@celledColumnDivider: (-@celledWidth) 0px 0px 0px @celledBorderColor;
+@celledRowDivider: 0px (-1 * @celledWidth) 0px 0px @celledBorderColor;
+@celledColumnDivider: (-1 * @celledWidth) 0px 0px 0px @celledBorderColor;
 
 
 /*--------------
