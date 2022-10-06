@@ -1,4 +1,4 @@
-@fontPath  : '../../themes/material/assets/fonts';
+@fontPath  : '../../material/assets/fonts';
 
 @width: 1em;
 @height: 1em;

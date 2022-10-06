@@ -2,7 +2,7 @@
    Icon Variables
 --------------------*/
 
-@fontPath  : "../../themes/basic/assets/fonts";
+@fontPath  : "../../basic/assets/fonts";
 
 @src:
   url("@{fontPath}/@{fontName}.eot?#iefix") format('embedded-opentype'),

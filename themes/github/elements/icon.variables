@@ -1,4 +1,4 @@
-@fontPath: '../../themes/github/assets/fonts';
+@fontPath: '../../github/assets/fonts';
 @fontName: 'octicons';
 @fallbackSRC: '';
 
