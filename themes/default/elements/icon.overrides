@@ -1708,7 +1708,7 @@ i.icon.youtube.play:before { content: "\f167"; }
   i.icon.yoast,
   i.icon.youtube,
   i.icon.youtube.square {
-    font-family: 'brand-icons';
+    font-family: @brandFontName;
   }
   /* Brand Icons Ideally Would Be Defined Here */
 
